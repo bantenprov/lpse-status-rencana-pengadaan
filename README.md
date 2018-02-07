@@ -142,7 +142,7 @@ Vue.component('echarts-status-rencana-pengadaan-tahun', StatusRencanaPengadaanTa
 import StatusRencanaPengadaanAdminShow from './components/bantenprov/status-rencana-pengadaan/StatusRencanaPengadaanAdmin.show.vue';
 Vue.component('admin-view-status-rencana-pengadaan-tahun', StatusRencanaPengadaanAdminShow);
 
-//== Echarts Angka Partisipasi Kasar
+//== Echarts Status Rencana Pengadaan
 
 import StatusRencanaPengadaanBar01 from './components/views/bantenprov/status-rencana-pengadaan/StatusRencanaPengadaanBar01.vue';
 Vue.component('status-rencana-pengadaan-bar-01', StatusRencanaPengadaanBar01);
