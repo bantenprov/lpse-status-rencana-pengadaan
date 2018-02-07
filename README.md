@@ -97,9 +97,6 @@ children: [
         title: "Status Rencana Pengadaan"
       }
     }
- //== ...
-  ]
-},
 
 ```
 #### Edit menu `resources/assets/js/menu.js`
