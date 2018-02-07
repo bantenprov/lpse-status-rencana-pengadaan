@@ -1,6 +1,4 @@
 # lpse-status-rencana-pengadaan
-Status Rencana Pengadaan
-
 
 [![Join the chat at https://gitter.im/status-rencana-pengadaan/Lobby](https://badges.gitter.im/status-rencana-pengadaan/Lobby.svg)](https://gitter.im/status-rencana-pengadaan/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/status-rencana-pengadaan/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/status-rencana-pengadaan/?branch=master)
