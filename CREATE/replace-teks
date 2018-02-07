@@ -1,0 +1,13 @@
+
+#!/bin/bash
+read -p "Please type something to find: " first
+read -p "Please type replace to: " second
+read -p "in folder and subfolder: " three
+
+red_color='\033[1;31m'
+echo "start"
+find "$three/." -type f -exec sed -i'' -e "s/$first/$second/g" {} +
+echo "finish"
+echo "You've repalce: ${red_color}\"$first\""
+echo "You've with: ${red_color}\"$second\""
+

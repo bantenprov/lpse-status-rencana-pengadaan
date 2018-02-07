@@ -1,0 +1,1 @@
+This is demo view file for Bantenprov\StatusRencanaPengadaan package using blade template
