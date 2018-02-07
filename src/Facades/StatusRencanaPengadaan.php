@@ -17,6 +17,6 @@ class StatusRencanaPengadaan extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'lpse-status-rencana-pengadaan';
+        return 'status-rencana-pengadaan';
     }
 }

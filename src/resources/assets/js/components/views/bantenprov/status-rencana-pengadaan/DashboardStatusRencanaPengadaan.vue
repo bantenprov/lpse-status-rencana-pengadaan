@@ -5,14 +5,14 @@
       <div class="col-lg-6 mb-3">
         <div class="card h-100" style="color: #fff; background-color: #2196F3;">
           <div class="card-body">
-            <lpse-status-rencana-pengadaan-bar-03></lpse-status-rencana-pengadaan-bar-03>
+            <status-rencana-pengadaan-bar-03></status-rencana-pengadaan-bar-03>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
       <div class="col-lg-6 mb-3">
         <div class="card h-100" style="color: #fff; background-color: #4CAF50;">
           <div class="card-body">
-            <lpse-status-rencana-pengadaan-pie-03></lpse-status-rencana-pengadaan-pie-03>
+            <status-rencana-pengadaan-pie-03></status-rencana-pengadaan-pie-03>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
@@ -28,7 +28,7 @@
             Status Rencana Pengadaan Berdasarkan Wilayah
           </div>
           <div class="card-body">
-            <lpse-status-rencana-pengadaan-bar-01></lpse-status-rencana-pengadaan-bar-01>
+            <status-rencana-pengadaan-bar-01></status-rencana-pengadaan-bar-01>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
@@ -39,7 +39,7 @@
             Status Rencana Pengadaan Berdasarkan Wilayah
           </div>
           <div class="card-body">
-            <lpse-status-rencana-pengadaan-pie-01></lpse-status-rencana-pengadaan-pie-01>
+            <status-rencana-pengadaan-pie-01></status-rencana-pengadaan-pie-01>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
@@ -55,7 +55,7 @@
             Status Rencana Pengadaan Berdasarkan Tahun
           </div>
           <div class="card-body">
-            <lpse-status-rencana-pengadaan-pie-02></lpse-status-rencana-pengadaan-pie-02>
+            <status-rencana-pengadaan-pie-02></status-rencana-pengadaan-pie-02>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /.col -->
@@ -66,7 +66,7 @@
             Status Rencana Pengadaan Berdasarkan Tahun
           </div>
           <div class="card-body">
-            <lpse-status-rencana-pengadaan-bar-02></lpse-status-rencana-pengadaan-bar-02>
+            <status-rencana-pengadaan-bar-02></status-rencana-pengadaan-bar-02>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->

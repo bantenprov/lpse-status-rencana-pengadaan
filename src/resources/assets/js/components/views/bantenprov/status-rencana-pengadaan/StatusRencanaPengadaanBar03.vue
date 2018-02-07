@@ -140,7 +140,7 @@ export default {
     }
   },
   mounted: function () {
-    axios.get('/json/bantenprov/lpse-status-rencana-pengadaan/lpse-status-rencana-pengadaan-030.json').then(response => {
+    axios.get('/json/bantenprov/status-rencana-pengadaan/status-rencana-pengadaan-030.json').then(response => {
 
       let ke = 0;
 

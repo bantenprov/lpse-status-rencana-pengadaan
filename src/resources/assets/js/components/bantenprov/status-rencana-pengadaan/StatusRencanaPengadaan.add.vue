@@ -154,7 +154,7 @@ export default {
             } else {
               if(this.model.tahun >= 2000 && this.model.tahun <= (new Date()).getFullYear())
               {
-                axios.post("/lpse-status-rencana-pengadaan/store", {
+                axios.post("/status-rencana-pengadaan/store", {
                   negara: this.model.negara,
                   province_id: this.model.province_id,
                   kab_kota: this.model.kab_kota,
@@ -165,14 +165,14 @@ export default {
                 .then(response => {
                   if(response.data.type == 'success'){
                     miniToastr.success(response.data.message, response.data.title)
-                    window.location.href = '#/admin/lpse-status-rencana-pengadaan/'+response.data.id
+                    window.location.href = '#/admin/status-rencana-pengadaan/'+response.data.id
                   }
                   else{
                     miniToastr.error(response.data.message, response.data.title)
-                    window.location.href = '#/admin/lpse-status-rencana-pengadaan/create'
+                    window.location.href = '#/admin/status-rencana-pengadaan/create'
                   }
                 },
-                window.location.href = '#/admin/lpse-status-rencana-pengadaan/create')
+                window.location.href = '#/admin/status-rencana-pengadaan/create')
                 .catch((error) => miniToastr.error(error, "Error"));
               }else{
                 miniToastr.error('Tahun tidak sesuai.', 'error');
@@ -190,11 +190,11 @@ export default {
             };
         },
         back() {
-            window.location = '#/admin/lpse-status-rencana-pengadaan';
+            window.location = '#/admin/status-rencana-pengadaan';
         }
     },
     mounted: function() {
-        axios.get("/lpse-status-rencana-pengadaan/create").then(response => {
+        axios.get("/status-rencana-pengadaan/create").then(response => {
 
             this.provinces = response.data.provinces;
             this.regencies = response.data.regencies;

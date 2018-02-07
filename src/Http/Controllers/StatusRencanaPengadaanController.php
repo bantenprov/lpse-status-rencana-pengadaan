@@ -55,14 +55,14 @@ class StatusRencanaPengadaanController extends Controller
     public function show($id)
     {
 
-        $lpse_status_rencana_pengadaan = $this->lpse-status-rencana-pengadaan->find($id);
+        $lpse_status_rencana_pengadaan = $this->status-rencana-pengadaan->find($id);
 
         return response()->json([
-            'negara'    => $lpse-status-rencana-pengadaan->negara,
-            'province'  => $lpse-status-rencana-pengadaan->getProvince->name,
-            'regencies' => $lpse-status-rencana-pengadaan->getRegency->name,
-            'tahun'     => $lpse-status-rencana-pengadaan->tahun,
-            'data'      => $lpse-status-rencana-pengadaan->data
+            'negara'    => $status-rencana-pengadaan->negara,
+            'province'  => $status-rencana-pengadaan->getProvince->name,
+            'regencies' => $status-rencana-pengadaan->getRegency->name,
+            'tahun'     => $status-rencana-pengadaan->tahun,
+            'data'      => $status-rencana-pengadaan->data
         ]);
     }
 
@@ -88,7 +88,7 @@ class StatusRencanaPengadaanController extends Controller
             ]);
         }
 
-        $check = $this->lpse-status-rencana-pengadaan->where('regency_id',$request->regency_id)->where('tahun',$request->tahun)->count();
+        $check = $this->status-rencana-pengadaan->where('regency_id',$request->regency_id)->where('tahun',$request->tahun)->count();
 
         if($check > 0)
         {
@@ -99,7 +99,7 @@ class StatusRencanaPengadaanController extends Controller
             ]);
 
         }else{
-            $data = $this->lpse-status-rencana-pengadaan->create($request->all());
+            $data = $this->status-rencana-pengadaan->create($request->all());
 
             return response()->json([
                     'type'      => 'success',

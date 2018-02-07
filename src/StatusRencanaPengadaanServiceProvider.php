@@ -43,15 +43,15 @@ class StatusRencanaPengadaanServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('lpse-status-rencana-pengadaan', function ($app) {
+        $this->app->singleton('status-rencana-pengadaan', function ($app) {
             return new StatusRencanaPengadaan;
         });
 
-        $this->app->singleton('command.lpse-status-rencana-pengadaan', function ($app) {
+        $this->app->singleton('command.status-rencana-pengadaan', function ($app) {
             return new StatusRencanaPengadaanCommand;
         });
 
-        $this->commands('command.lpse-status-rencana-pengadaan');
+        $this->commands('command.status-rencana-pengadaan');
     }
 
     /**
@@ -62,8 +62,8 @@ class StatusRencanaPengadaanServiceProvider extends ServiceProvider
     public function provides()
     {
         return [
-            'lpse-status-rencana-pengadaan',
-            'command.lpse-status-rencana-pengadaan',
+            'status-rencana-pengadaan',
+            'command.status-rencana-pengadaan',
         ];
     }
 
@@ -85,9 +85,9 @@ class StatusRencanaPengadaanServiceProvider extends ServiceProvider
     protected function configHandle()
     {
         $packageConfigPath = __DIR__.'/config/config.php';
-        $appConfigPath     = config_path('lpse-status-rencana-pengadaan.php');
+        $appConfigPath     = config_path('status-rencana-pengadaan.php');
 
-        $this->mergeConfigFrom($packageConfigPath, 'lpse-status-rencana-pengadaan');
+        $this->mergeConfigFrom($packageConfigPath, 'status-rencana-pengadaan');
 
         $this->publishes([
             $packageConfigPath => $appConfigPath,
@@ -103,10 +103,10 @@ class StatusRencanaPengadaanServiceProvider extends ServiceProvider
     {
         $packageTranslationsPath = __DIR__.'/resources/lang';
 
-        $this->loadTranslationsFrom($packageTranslationsPath, 'lpse-status-rencana-pengadaan');
+        $this->loadTranslationsFrom($packageTranslationsPath, 'status-rencana-pengadaan');
 
         $this->publishes([
-            $packageTranslationsPath => resource_path('lang/vendor/lpse-status-rencana-pengadaan'),
+            $packageTranslationsPath => resource_path('lang/vendor/status-rencana-pengadaan'),
         ], 'lang');
     }
 
@@ -119,10 +119,10 @@ class StatusRencanaPengadaanServiceProvider extends ServiceProvider
     {
         $packageViewsPath = __DIR__.'/resources/views';
 
-        $this->loadViewsFrom($packageViewsPath, 'lpse-status-rencana-pengadaan');
+        $this->loadViewsFrom($packageViewsPath, 'status-rencana-pengadaan');
 
         $this->publishes([
-            $packageViewsPath => resource_path('views/vendor/lpse-status-rencana-pengadaan'),
+            $packageViewsPath => resource_path('views/vendor/status-rencana-pengadaan'),
         ], 'views');
     }
 
@@ -137,7 +137,7 @@ class StatusRencanaPengadaanServiceProvider extends ServiceProvider
 
         $this->publishes([
             $packageAssetsPath => resource_path('assets'),
-        ], 'lpse-status-rencana-pengadaan-assets');
+        ], 'status-rencana-pengadaan-assets');
     }
 
     /**
@@ -162,6 +162,6 @@ class StatusRencanaPengadaanServiceProvider extends ServiceProvider
 
         $this->publishes([
             $packagePublicPath => base_path('public')
-        ], 'lpse-status-rencana-pengadaan-public');
+        ], 'status-rencana-pengadaan-public');
     }
 }

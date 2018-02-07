@@ -16,7 +16,7 @@ class StatusRencanaPengadaanCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'bantenprov:lpse-status-rencana-pengadaan';
+    protected $signature = 'bantenprov:status-rencana-pengadaan';
 
     /**
      * The console command description.
