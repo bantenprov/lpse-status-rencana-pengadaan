@@ -1,8 +1,16 @@
 # lpse-status-rencana-pengadaan
 
-[![Join the chat at https://gitter.im/status-rencana-pengadaan/Lobby](https://badges.gitter.im/status-rencana-pengadaan/Lobby.svg)](https://gitter.im/status-rencana-pengadaan/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/status-rencana-pengadaan/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/status-rencana-pengadaan/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/bantenprov/status-rencana-pengadaan/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/status-rencana-pengadaan/build-status/master)
+[![Join the chat at https://gitter.im/lpse-status-rencana-pengadaan/Lobby](https://badges.gitter.im/lpse-status-rencana-pengadaan/Lobby.svg)](https://gitter.im/lpse-status-rencana-pengadaan/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/lpse-status-rencana-pengadaan/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/lpse-status-rencana-pengadaan/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/bantenprov/lpse-status-rencana-pengadaan/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/lpse-status-rencana-pengadaan/build-status/master)
+
+[![Latest Stable Version](https://poser.pugx.org/bantenprov/lpse-status-rencana-pengadaan/v/stable)](https://packagist.org/packages/bantenprov/lpse-status-rencana-pengadaan)
+[![Total Downloads](https://poser.pugx.org/bantenprov/lpse-status-rencana-pengadaan/downloads)](https://packagist.org/packages/bantenprov/lpse-status-rencana-pengadaan)
+[![Latest Unstable Version](https://poser.pugx.org/bantenprov/lpse-status-rencana-pengadaan/v/unstable)](https://packagist.org/packages/bantenprov/lpse-status-rencana-pengadaan)
+[![License](https://poser.pugx.org/bantenprov/lpse-status-rencana-pengadaan/license)](https://packagist.org/packages/bantenprov/lpse-status-rencana-pengadaan)
+[![Monthly Downloads](https://poser.pugx.org/bantenprov/lpse-status-rencana-pengadaan/d/monthly)](https://packagist.org/packages/bantenprov/lpse-status-rencana-pengadaan)
+[![Daily Downloads](https://poser.pugx.org/bantenprov/lpse-status-rencana-pengadaan/d/daily)](https://packagist.org/packages/bantenprov/lpse-status-rencana-pengadaan)
+
 
 Status Rencana Pengadaan
 
@@ -142,7 +150,7 @@ Vue.component('echarts-status-rencana-pengadaan-tahun', StatusRencanaPengadaanTa
 import StatusRencanaPengadaanAdminShow from './components/bantenprov/status-rencana-pengadaan/StatusRencanaPengadaanAdmin.show.vue';
 Vue.component('admin-view-status-rencana-pengadaan-tahun', StatusRencanaPengadaanAdminShow);
 
-//== Echarts Status Rencana Pengadaan
+//== Echarts Angka Partisipasi Kasar
 
 import StatusRencanaPengadaanBar01 from './components/views/bantenprov/status-rencana-pengadaan/StatusRencanaPengadaanBar01.vue';
 Vue.component('status-rencana-pengadaan-bar-01', StatusRencanaPengadaanBar01);
