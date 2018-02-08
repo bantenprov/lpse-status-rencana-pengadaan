@@ -46,60 +46,14 @@
     <!-- ===================================================================== -->
 
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-12">
         <div class="card mb-3">
           <div class="card-header">
             <i class="fa fa-table" aria-hidden="true"></i>
             Table
           </div>
           <div class="card-body">
-            <table class="table mb-0">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Name</th>
-                  <th scope="col">Date</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Muhammad Ibnu Musa Al-Khawarizmi</td>
-                  <td>780–850</td>
-                </tr>
-                <tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Abu Ali Al-Husein Ibnu Sina</td>
-                  <td>986-1037</td>
-                </tr>
-                  <th scope="row">3</th>
-                  <td>Abu Nasir Al-Farabi</td>
-                  <td>870-900</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Muhammad Ibnu Musa Al-Khawarizmi</td>
-                  <td>780–850</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Abu Ali Al-Husein Ibnu Sina</td>
-                  <td>986-1037</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Abu Nasir Al-Farabi</td>
-                  <td>870-900</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Abu Nasir Al-Farabi</td>
-                  <td>870-900</td>
-                </tr>
-
-              </tbody>
-            </table>
+            <status-rencana-pengadaan-table></status-rencana-pengadaan-table>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
 
@@ -113,8 +67,8 @@
           </div>
           <div class="card-body">
             <example-chartjs-pie></example-chartjs-pie>
-          </div><!-- /.card-body -->
-        </div><!-- /.card -->
+          </div>/.card-body
+        </div>/.card
 
         <div class="card mb-3">
           <div class="card-header">

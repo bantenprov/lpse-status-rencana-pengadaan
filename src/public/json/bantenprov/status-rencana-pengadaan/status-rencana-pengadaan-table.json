@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "tahun": "2014",
+      "jumlah_paket": 6105,
+      "jumlah_transaksi": "Rp. 1,248,549,969,694"
+    },
+    {
+      "id": 1,
+      "tahun": "2014",
+      "jumlah_paket": 7927,
+      "jumlah_transaksi": "Rp. 1,717,459,845,643"
+    }
+  ]
+}

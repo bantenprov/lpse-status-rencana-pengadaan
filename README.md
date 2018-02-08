@@ -138,6 +138,8 @@ children: [
 
 ```javascript
 
+//== lpse-status-rencana-pengadaan
+
 import StatusRencanaPengadaan from './components/bantenprov/status-rencana-pengadaan/StatusRencanaPengadaan.chart.vue';
 Vue.component('echarts-status-rencana-pengadaan', StatusRencanaPengadaan);
 
@@ -147,10 +149,13 @@ Vue.component('echarts-status-rencana-pengadaan-kota', StatusRencanaPengadaanKot
 import StatusRencanaPengadaanTahun from './components/bantenprov/status-rencana-pengadaan/StatusRencanaPengadaanTahun.chart.vue';
 Vue.component('echarts-status-rencana-pengadaan-tahun', StatusRencanaPengadaanTahun);
 
+import StatusRencanaPengadaanTable from './components/bantenprov/status-rencana-pengadaan/StatusRencanaPengadaanTable.vue';
+Vue.component('status-rencana-pengadaan-table', StatusRencanaPengadaanTable);
+
 import StatusRencanaPengadaanAdminShow from './components/bantenprov/status-rencana-pengadaan/StatusRencanaPengadaanAdmin.show.vue';
 Vue.component('admin-view-status-rencana-pengadaan-tahun', StatusRencanaPengadaanAdminShow);
 
-//== Echarts Angka Partisipasi Kasar
+//== lpse-status-rencana-pengadaan
 
 import StatusRencanaPengadaanBar01 from './components/views/bantenprov/status-rencana-pengadaan/StatusRencanaPengadaanBar01.vue';
 Vue.component('status-rencana-pengadaan-bar-01', StatusRencanaPengadaanBar01);
@@ -171,4 +176,5 @@ Vue.component('status-rencana-pengadaan-pie-02', StatusRencanaPengadaanPie02);
 //== mini pie charts
 import StatusRencanaPengadaanPie03 from './components/views/bantenprov/status-rencana-pengadaan/StatusRencanaPengadaanPie03.vue';
 Vue.component('status-rencana-pengadaan-pie-03', StatusRencanaPengadaanPie03);
+
 ```
