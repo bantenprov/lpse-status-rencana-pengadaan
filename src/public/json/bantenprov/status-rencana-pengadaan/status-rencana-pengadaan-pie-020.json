@@ -2,9 +2,9 @@
   {
     "xAxis": {
       "category": "Status Rencana Pengadaan",
-      "type": "category"
-//    "region": "Provinsi",
-//    "name": "Banten"
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten"
     },
     "series": [
       {
@@ -28,9 +28,9 @@
   {
     "xAxis": {
       "category": "Status Rencana Pengadaan",
-      "type": "category"
- //   "region": "Negara",
- //   "name": "Indonesia"
+      "type": "category",
+      "region": "Negara",
+      "name": "Indonesia"
     },
     "series": [
       {
