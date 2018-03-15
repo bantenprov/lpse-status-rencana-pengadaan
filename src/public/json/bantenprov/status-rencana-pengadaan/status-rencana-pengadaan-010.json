@@ -2,13 +2,13 @@
   {
     "xAxis": {
       "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
+  //  "region": "Provinsi",
+      "name": "Status Rencana Pengadaan",
       "yyyy": "2018",
       "data": [
-        "SD/MI/Paket A",
-        "SMP/MTS/Paket B",
-        "SMA/SMK/Paket C"
+        "Pandeglang",
+        "Serang",
+        "Cilegon"
       ]
     },
     "series": [
@@ -24,13 +24,13 @@
   {
     "xAxis": {
       "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
+   // "region": "Negara",
+      "name": "Status Rencana Pengadaan",
       "yyyy": "2018",
       "data": [
-        "SD/MI/Paket A",
-        "SMP/MTS/Paket F",
-        "SMA/SMK/Paket C"
+        "Pandeglang ",
+        "Serang ",
+        "Cilegon"
       ]
     },
     "series": [

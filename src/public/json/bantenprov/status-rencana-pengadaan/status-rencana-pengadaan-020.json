@@ -1,7 +1,7 @@
 [
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
+      "category": "Status Rencana Pengadaan",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
@@ -22,7 +22,7 @@
   },
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
+      "category": "Status Rencana Pengadaan",
       "region": "Negara",
       "name": "Indonesia",
       "data": [
@@ -43,7 +43,7 @@
   },
   {
     "xAxis": {
-      "category": "SMP/MTS/Paket B",
+      "category": "Status Rencana Pengadaan",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
@@ -64,7 +64,7 @@
   },
   {
     "xAxis": {
-      "category": "SMP/MTS/Paket B",
+      "category": "Status Rencana Pengadaan",
       "region": "Negara",
       "name": "Indonesia",
       "data": [
@@ -85,7 +85,7 @@
   },
   {
     "xAxis": {
-      "category": "SMA/SMK/Paket C",
+      "category": "Status Rencana Pengadaan",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
@@ -106,7 +106,7 @@
   },
   {
     "xAxis": {
-      "category": "SMA/SMK/Paket C",
+      "category": "Status Rencana Pengadaan",
       "region": "Negara",
       "name": "Indonesia",
       "data": [
