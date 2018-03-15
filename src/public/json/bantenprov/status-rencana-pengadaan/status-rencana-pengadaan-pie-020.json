@@ -1,7 +1,7 @@
 [
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
+      "category": "Status Rencana Pengadaan",
       "type": "category",
       "region": "Provinsi",
       "name": "Banten"
@@ -27,7 +27,7 @@
   },
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
+      "category": "Status Rencana Pengadaan",
       "type": "category",
       "region": "Negara",
       "name": "Indonesia"

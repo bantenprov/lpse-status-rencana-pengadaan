@@ -9,9 +9,9 @@
     "series": [
       {
         "data": [
-          {"value":120,"name":"SD/MI/Paket A"},
-          {"value":200,"name":"SMP/MTS/Paket B"},
-          {"value":150,"name":"SMA/SMK/Paket C"}
+          {"value":120,"name":"Pandeglang"},
+          {"value":200,"name":"Serang"},
+          {"value":150,"name":"Cilegon"}
         ]
       }
     ]
@@ -26,9 +26,9 @@
     "series": [
       {
         "data": [
-          {"value":50,"name":"SD/MI/Paket A"},
-          {"value":30,"name":"SMP/MTS/Paket B"},
-          {"value":350,"name":"SMA/SMK/Paket C"}
+          {"value":50,"name":"Pandeglang"},
+          {"value":30,"name":"Serang"},
+          {"value":350,"name":"Cilegon"}
         ]
       }
     ]
